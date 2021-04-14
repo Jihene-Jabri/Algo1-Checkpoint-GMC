@@ -1,0 +1,23 @@
+
+ALGORITHM  Checkpoint
+VAR
+    S:STRING;
+    i:INTEGER:=0;
+    letterCOUNTER:INTEGER:=0;
+    wordCounter:INTEGER:=0;
+    VowelCounter:INTEGER:=0;
+BEGIN
+   Read (S)
+WHILE (S[i]<>NULL) DO
+    letterCOUNTER:=letterCOUNTER+1;
+END_WHILE
+   Write (letterCOUNTER)
+WHILE (S[i]:=("")) DO
+    wordCounter:=wordCounter+1;
+END_WHILE
+   Write (wordCounter)
+WHILE (S[i]:=("a") || S[i]:=("e") || S[i]:=("i") || S[i]:=("o") || S[i]:=("u") || S[i]:=("y")) DO
+    VowelCounter:=VowelCounter+1;
+END_WHILE
+   Write (VowelCounter)
+END
