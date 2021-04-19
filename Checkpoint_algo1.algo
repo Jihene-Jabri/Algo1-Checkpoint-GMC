@@ -7,6 +7,7 @@ VAR
     wordCounter:INTEGER:=0;
     VowelCounter:INTEGER:=0;
 BEGIN
+   Write (S=["","."])
    Read (S)
 WHILE (S[i]<>NULL) DO
     letterCOUNTER:=letterCOUNTER+1;
