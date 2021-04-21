@@ -1,3 +1,4 @@
+
 ALGORITHM sum_distinct1_array
 VAR
     set1: ARRAY_OF INTEGER[m];
